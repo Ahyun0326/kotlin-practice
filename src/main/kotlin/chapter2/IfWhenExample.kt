@@ -1,4 +1,4 @@
-package io.demo
+package io.demo.chapter2
 
 fun main() {
 //    averageCalc()
