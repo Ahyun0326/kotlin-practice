@@ -15,6 +15,8 @@ class Bag (
     }
 
     val itemList: MutableList<Item2> = mutableListOf()
+
+    // 컬렉션의 요소를 누적하여 더해 반환
     val currentWeight = this.itemList.fold(0) { acc, item -> acc + item.weight }
 
     fun putItem(item: Item2) {
