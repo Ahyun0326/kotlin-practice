@@ -16,6 +16,8 @@ repositories {
 }
 
 dependencies {
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0")
+
     testImplementation("org.jetbrains.kotlin:kotlin-test")
 
     testImplementation("io.kotest:kotest-runner-junit5:5.4.2")
